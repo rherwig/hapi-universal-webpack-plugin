@@ -1,0 +1,36 @@
+{
+  "name": "hapi-universal-webpack-plugin",
+  "version": "0.1.0",
+  "description": "Hapi plugin that implements dev, hot and hot-server middleware for weback",
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rherwig/hapi-universal-webpack-plugin.git"
+  },
+  "keywords": [
+    "webpack",
+    "dev-middleware",
+    "hot-middleware",
+    "hot-server-middleware",
+    "hapi",
+    "universal",
+    "server-side",
+    "rendering"
+  ],
+  "author": "Rico Herwig <rherwig4711@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rherwig/hapi-universal-webpack-plugin/issues"
+  },
+  "homepage": "https://github.com/rherwig/hapi-universal-webpack-plugin#readme",
+  "peerDependencies": {
+    "webpack": "*",
+    "hapi": "*"
+  },
+  "dependencies": {
+    "debug": "^4.1.0",
+    "webpack-dev-middleware": "^3.4.0",
+    "webpack-hot-middleware": "^2.24.3",
+    "webpack-hot-server-middleware": "^0.5.0"
+  }
+}
