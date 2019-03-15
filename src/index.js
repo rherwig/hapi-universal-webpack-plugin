@@ -134,7 +134,7 @@ const register = (server, options) => {
     server.expose({ multiCompiler });
 };
 
-export default {
+module.exports = {
     name: 'hapiUniversalWebpackPlugin',
     version: '1.0.0',
     once: true,

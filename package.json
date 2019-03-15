@@ -1,6 +1,6 @@
 {
   "name": "hapi-universal-webpack-plugin",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Hapi plugin that implements dev, hot and hot-server middleware for weback",
   "main": "src/index.js",
   "repository": {
